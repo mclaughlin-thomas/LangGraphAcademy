@@ -1,0 +1,28 @@
+/// MODULE 0 & 1
+python3.12 -m venv lc-academy-env
+
+source lc-academy-env/bin/activate
+
+not all directories have studio!!!!
+
+To start the local development server, run the following command in your terminal in the /studio directory each module:
+langgraph dev
+
+Just an llm is fairly limited, it has no access to tools, external content or multi step workflows.
+
+We want LLM systems that can pick their own control flow 
+- > this is an agent
+
+A router is where a LLM chooses one step in a flow
+
+
+expressed as graphs with nodes which are our steps. Edges are how nodes are connected.
+
+has persistence, streaming, human-in-the-loop, and controllability
+
+
+Module 1 to do: LangGraph Studio, Router, and agent w memory
+
+
+
+/// MODULE 0 & 1 END
